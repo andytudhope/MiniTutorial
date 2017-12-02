@@ -1,0 +1,213 @@
+{
+  "contract_name": "FranklinController",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onTransfer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenContract",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "generateTokens",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "onApprove",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_tokenAddress",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "TokensMinted",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b6040516020806103e0833981016040528080519150505b5b60008054600160a060020a03191633600160a060020a03161790555b60018054600160a060020a031916600160a060020a0383161790555b505b610370806100706000396000f3006060604052361561005c5763ffffffff60e060020a6000350416634a393149811461006157806355a373d61461009d5780638da5cb5b146100cc578063a6f9dae1146100fb578063ca01ba391461011c578063da682aeb14610061575b600080fd5b341561006c57600080fd5b610089600160a060020a0360043581169060243516604435610182565b604051901515815260200160405180910390f35b34156100a857600080fd5b6100b061018c565b604051600160a060020a03909116815260200160405180910390f35b34156100d757600080fd5b6100b061019b565b604051600160a060020a03909116815260200160405180910390f35b341561010657600080fd5b61011a600160a060020a03600435166101aa565b005b341561012757600080fd5b6100896004356101e5565b604051901515815260200160405180910390f35b341561006c57600080fd5b610089600160a060020a0360043581169060243516604435610182565b604051901515815260200160405180910390f35b60015b9392505050565b600154600160a060020a031681565b600054600160a060020a031681565b60005433600160a060020a039081169116146101c557600080fd5b60008054600160a060020a031916600160a060020a0383161790555b5b50565b6000805433600160a060020a0390811691161461020157600080fd5b600154600160a060020a031663f77c47916000604051602001526040518163ffffffff1660e060020a028152600401602060405180830381600087803b151561024957600080fd5b6102c65a03f1151561025a57600080fd5b5050506040518051600160a060020a03161515905061027857600080fd5b600154600160a060020a031663827f32c0338460006040516020015260405160e060020a63ffffffff8516028152600160a060020a0390921660048301526024820152604401602060405180830381600087803b15156102d757600080fd5b6102c65a03f115156102e857600080fd5b5050506040518051905015156102fd57600080fd5b7f772f66a00a405709c30e7f18feadcc8f123b20c09c7260165d3eec36c9f213728260405190815260200160405180910390a15060015b5b919050565b60015b93925050505600a165627a7a7230582047187057eb7931f6aa721811c2358e79f272acdcf344ecc999e1ecd3993622b10029",
+  "networks": {
+    "1507042998812": {
+      "links": {},
+      "events": {
+        "0x772f66a00a405709c30e7f18feadcc8f123b20c09c7260165d3eec36c9f21372": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "_amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensMinted",
+          "type": "event"
+        }
+      },
+      "updated_at": 1507380911632
+    },
+    "1507385438015": {
+      "links": {},
+      "events": {
+        "0x772f66a00a405709c30e7f18feadcc8f123b20c09c7260165d3eec36c9f21372": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "_amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensMinted",
+          "type": "event"
+        }
+      },
+      "updated_at": 1507391228346
+    },
+    "1507396013201": {
+      "links": {},
+      "events": {
+        "0x772f66a00a405709c30e7f18feadcc8f123b20c09c7260165d3eec36c9f21372": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "_amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensMinted",
+          "type": "event"
+        }
+      },
+      "updated_at": 1507396023014
+    },
+    "1510137841383": {
+      "links": {},
+      "events": {
+        "0x772f66a00a405709c30e7f18feadcc8f123b20c09c7260165d3eec36c9f21372": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "_amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensMinted",
+          "type": "event"
+        }
+      },
+      "updated_at": 1510137888813
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1510137888813
+}
